@@ -114,7 +114,7 @@ fun RockPaperScissors(modifier: Modifier = Modifier) {
                             showResult = false // reset
                             // Simulate delay for computer's choice
                             coroutineScope.launch {
-                                delay(2000)
+                                delay(1000)
                                 computerMove = Move.entries.random()
                                 delay(500)
                                 isLoading = false
